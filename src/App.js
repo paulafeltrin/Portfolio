@@ -1,12 +1,12 @@
 import React from 'react';
 import {GlobalStyle} from "../src/Global/global"
-import Portfolio from "../src/Pages/Main/Portfolio/Portfolio";
+import Rotas from "./services/routes"
 
 export default function App(){
   return(
     <>
       <GlobalStyle />
-      <Portfolio/>
+      <Rotas/>
     </>
   )
 }

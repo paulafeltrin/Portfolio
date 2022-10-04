@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../../Header/Header"
-import Main from "../../Main/Main"
-import Footer from "../../Footer/Footer"
+import Header from "../Fragments/Header/Header"
+import Main from "../Fragments/Main/Main"
+import Footer from "../Fragments/Footer/Footer"
 
-export default function Portfolio(){
+export default function Home(){
     return(
         <>
             <body>
