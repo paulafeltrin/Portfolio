@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react';
+import {GlobalStyle} from "../src/Global/global"
+import Portfolio from "../src/Pages/Main/Portfolio/Portfolio";
 
 export default function App(){
   return(
     <>
-      <h1>Hey, folks!</h1>
+      <GlobalStyle />
+      <Portfolio/>
     </>
   )
 }
