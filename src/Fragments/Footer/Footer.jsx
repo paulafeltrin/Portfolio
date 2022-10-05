@@ -3,7 +3,6 @@ import { AiFillFacebook } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { GoMarkGithub } from "react-icons/go";
 import { HiOutlineUserCircle } from "react-icons/hi";
-import { Link } from "react-router-dom";
 import { StyledLink } from "./styles";
 import * as S from "./styles"
 
