@@ -1,4 +1,5 @@
 import {createGlobalStyle} from 'styled-components';
+import Img from '../Assests/old-paper.png'
 
 export const GlobalStyle = createGlobalStyle`
   *{
@@ -10,6 +11,10 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0 auto;
     max-width: 1080px;
     width: 100%;
-    border: 2px solid green;
+    background-image: url(${Img});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 `
