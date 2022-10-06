@@ -6,6 +6,9 @@ export const Main = styled.main`
     justify-content: center;
     align-items: center;
     padding: 15vh 0;
+    @media screen and (max-width: 950px){
+        padding: 10vh 0;
+    }
 `
 
 export const Img = styled.img`
