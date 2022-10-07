@@ -5,9 +5,9 @@ export const Main = styled.main`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15vh 0;
+    padding: 7vh 0;
     @media screen and (max-width: 950px){
-        padding: 10vh 0;
+        padding: 4vh 0;
     }
 `
 
@@ -17,7 +17,8 @@ export const Img = styled.img`
     border-radius: 10%;
 `
 export const Name = styled.p`
-    font-size: 1.5rem;
+    font-family: 'Merienda', cursive;
+    font-size: .9rem;
 `
 export const Div = styled.div`
     display: flex;

@@ -1,38 +1,30 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const Ul = styled.ul`
 display: flex;
 justify-content: space-around;
 width: 100%;
-margin-bottom: 15vh;
+padding: 0 0 10vh 0;
 align-self: auto;
-@media screen and (max-width: 900px){
+@media screen and (max-width: 700px){
     flex-direction: column;
-    padding: 1vh 0 1vh 15vw;
+    align-items: flex-end;
+    padding: 0 15vw 5vh 0;
 }
 `
 export const Li = styled.li`
 list-style: none;
-@media screen and (max-width: 900px){
-    margin: .5vh 0;
+@media screen and (max-width: 700px){
+    padding: 1vh 0;
 }
 `
 export const A = styled.a`
+    font-family: 'Merienda', cursive;
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1rem;
     :hover{
         border: 2px solid #cc9900;
-        padding: 2vh 2vw;
-    }
-`
-export const StyledLink = styled(Link)`
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-    :hover{
-        border: 2px solid #cc9900;
-        padding: 2vh 2vw;
+        padding: 1vh 2vw;
     }
 `

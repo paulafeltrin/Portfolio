@@ -28,55 +28,16 @@ const Lista = () =>{
     return(
         <header>
             <S.Title>Portfólio</S.Title>
+            <S.H2>Desenvolvimento web</S.H2>
                 <S.UlWeb>
                     <StyledLink to='/contato'><S.Li>Contatos</S.Li></StyledLink>
                     <StyledLink to='/projetos'><S.Li>Projetos</S.Li></StyledLink>
                     <StyledLink to='onu'><S.Li>Projeto ONU</S.Li></StyledLink>
-                    <StyledLink to='aboutme'><S.Li>Sobre mim</S.Li></StyledLink>
+                    <StyledLink to='aboutme'target="_blank"><S.Li>Sobre mim</S.Li></StyledLink>
                 </S.UlWeb>
-                
                 <S.BtnMobile onClick={() =>{handleList()}}>{status ? <AiOutlineClose/> : <AiOutlineMenu/> }</S.BtnMobile>
                 {status &&  Lista()}
                 <S.Row></S.Row>
         </header>
     )
 }
-
-
-
-
-// import React, {useState} from 'react'
-
-// export default function App(){
-
-//   const [status, setStatus] = useState(false)
-
-
-//   function handleList(){
-//     setStatus(!status)
-//   }
-
-
-//   const Lista = () =>{
-//     return(
-//       <div>
-//       <ul>
-//     <li>1</li>
-//     <li>2</li>
-//     <li>3</li>
-//     <li>4</li>
-//     <li>5</li>
-//       </ul>
-//     </div>
-//     )
-//   }
-
-
-//   return(
-//     <>
-//     <button onClick={() =>{handleList()}}>{status ? '☂️' : '🌂' }</button>
-//     {status &&  Lista()}
-//     <p>Escrevendo alguma coisa</p>
-//     </>
-//   )
-// }
