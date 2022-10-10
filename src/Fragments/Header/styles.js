@@ -37,6 +37,19 @@ display: none;
     }
 }
 `
+export const LinkHome = styled(Link)`
+display: none;
+@media screen and (max-width:560px ) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+    padding: 1vh 0 1vh 0;
+}
+`
 export const UlMobile = styled.ul`
 border: 2px solid #cc990050;
 width: 30vw;
