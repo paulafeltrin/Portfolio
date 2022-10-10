@@ -8,6 +8,8 @@ export default function Home(){
     return(
         <>
             <S.BodyHome>
+                <S.Title>Portfólio</S.Title>
+                <S.H2>Desenvolvimento web</S.H2>
                 <Header />
                 <Main />
                 <Footer />

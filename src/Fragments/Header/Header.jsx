@@ -27,8 +27,6 @@ const Lista = () =>{
 
     return(
         <header>
-            <S.Title>Portfólio</S.Title>
-            <S.H2>Desenvolvimento web</S.H2>
                 <S.UlWeb>
                     <StyledLink to='/contato'><S.Li>Contatos</S.Li></StyledLink>
                     <StyledLink to='/projetos'><S.Li>Projetos</S.Li></StyledLink>
