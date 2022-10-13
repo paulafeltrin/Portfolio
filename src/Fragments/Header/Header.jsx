@@ -33,7 +33,7 @@ const Lista = () =>{
                     <StyledLink to='/'><S.Li>Home</S.Li></StyledLink>
                     <StyledLink to='/contato'><S.Li>Contatos</S.Li></StyledLink>
                     <StyledLink to='/projetos'><S.Li>Projetos</S.Li></StyledLink>
-                    <StyledLink to='onu'><S.Li>Projeto ONU</S.Li></StyledLink>
+                    <StyledLink to={{ pathname: `https://splendorous-banoffee-39a604.netlify.app/`}}target="_blank"><S.Li>Projeto ONU</S.Li></StyledLink>
                     <StyledLink to='aboutme'target="_blank"><S.Li>Sobre mim</S.Li></StyledLink>
                 </S.UlWeb>
                 <S.BtnMobile onClick={() =>{handleList()}}>{status ? <AiOutlineClose/> : <AiOutlineMenu/> }</S.BtnMobile>
