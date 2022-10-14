@@ -37,6 +37,15 @@ display: none;
     }
 }
 `
+export const Onu = styled.a`
+    display: flex;
+    justify-content: center;
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 1vh 0 1vh 0;
+`
 export const LinkHome = styled(Link)`
 display: none;
 @media screen and (max-width:560px ) {
