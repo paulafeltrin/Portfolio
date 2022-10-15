@@ -37,14 +37,27 @@ display: none;
     }
 }
 `
-export const Onu = styled.a`
+export const OnuWeb = styled.a`
+font-family: 'Merienda', cursive;
+text-decoration: none;
+color: black;
+font-size: .9rem;
+@media screen and (max-width:560px ) {
+    display: none;
+}
+`
+export const OnuMob = styled.a`
+display: none;
+@media screen and (max-width:560px ) {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Merienda', cursive;
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 1vh 0 1vh 0;
+}   
 `
 export const LinkHome = styled(Link)`
 display: none;
