@@ -69,7 +69,6 @@ display: none;
     text-decoration: none;
     color: black;
     font-size: .9rem;
-    padding: 1vh 0 1vh 0;
 }
 `
 export const UlMobile = styled.ul`
@@ -97,11 +96,10 @@ font-size: .9rem;
 export const Li = styled.li`
 text-align: center;
 list-style: none;
-height: 4vh;
+height: 4.2vh;
 padding: 0 2vw;
 
 :hover{
-    border-top: 3px solid #cc9900;
-    background-color: #cc990060;
+    outline: 1px solid #cc9900;
 }
 `

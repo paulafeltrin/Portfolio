@@ -4,6 +4,7 @@ import Home from "../Home/Home"
 import Contato from "../Pages/Contact/Contact"
 import Projetos from "../Pages/Projetos/Projetos"
 import About from "../Pages/AboutMe/About"
+import Erro from "../Pages/Erro/erro"
 
 export default function Rotas(){
   return(
@@ -13,6 +14,7 @@ export default function Rotas(){
             <Route path="/contato" element={<Contato/>}/>
             <Route path="/projetos" element={<Projetos/>}/>
             <Route path="/about" element={<About/>}/>
+            <Route path='*' element={<Erro />}/>
            </Routes>
     </Router>
   )

@@ -17,7 +17,7 @@ export const A = styled.a`
         font-size: .7rem;
     }
     :hover{
-        border: 2px solid #cc9900;
+        outline: 2px solid #cc9900;
     }
 `
 export const Li = styled.li`
