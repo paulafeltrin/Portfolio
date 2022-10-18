@@ -9,6 +9,10 @@ export default function About(){
         <S.BodyContact>
             <S.TitleContact>Sobre mim</S.TitleContact>
             <Header />
+            <S.H2>Eu sou a Paula</S.H2>
+            <S.P>Tenho 25 anos, brasileira e acadêmica de administração.</S.P>
+            <S.P>Descobrir coisas noivas é o que me fascina e foi isso que senti quando decidi estudar desenvolvimeto web. É simplesmente um mundo a parte.</S.P>
+            <S.P>Amante dos livros, dos animais e da natureza</S.P>
             <S.Div>
                 <S.Ornament src={Adorno} alt="imagem linhas rebuscadas" />
                 <S.Ornament src={Adorno} alt="imagem linhas rebuscadas" />

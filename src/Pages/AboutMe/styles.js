@@ -36,6 +36,15 @@ padding: 0 5vw;
     letter-spacing: .5rem;
 }
 `
+export const H2 = styled.h2`
+    padding: 2vh 4vw;
+    font-family: 'Merienda', cursive;
+    font-size: 2.5rem;
+`
+export const P = styled.p`
+    font-size: 1.5rem;
+    padding: 2vh 4vw;
+`
 export const Div = styled.div`
     display: flex;
     justify-content: center;
