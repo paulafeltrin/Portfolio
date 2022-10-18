@@ -26,10 +26,14 @@ export default function Projetos(){
                             <S.Challenge src={Crespos} alt="Projeto Crespos" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2> Projeto Crespos</S.H2>
                         <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.Technology>
+                            <S.TagHtml>HTML</S.TagHtml>
+                            <S.TagCss>CSS</S.TagCss>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
@@ -37,10 +41,15 @@ export default function Projetos(){
                             <S.Challenge src={DogPage} alt="Projeto Dog Page" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2>Projeto Dog Page</S.H2>
-                        <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.P>Site desenvolvido para consumo de API.</S.P>
+                        <S.Technology>
+                            <S.TagReact>ReactJS</S.TagReact>
+                            <S.TagStyled>Styled Components</S.TagStyled>
+                            <S.TagApi>API</S.TagApi>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
@@ -48,10 +57,14 @@ export default function Projetos(){
                             <S.Challenge src={Estados} alt="Filter sem botão" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2>Filtro - estados brasileiros</S.H2>
-                        <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.P>Uso do filter sem botão para filtrar os estados bradileiros.</S.P>
+                        <S.Technology>
+                            <S.TagReact>ReactJS</S.TagReact>
+                            <S.TagStyled>Styled Components</S.TagStyled>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
@@ -59,10 +72,15 @@ export default function Projetos(){
                             <S.Challenge src={HP} alt="Projeto Harry Potter" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2>Projeto Harry Potter</S.H2>
-                        <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.P>Site desenvolvido para consumo de API.</S.P>
+                        <S.Technology>
+                            <S.TagReact>ReactJS</S.TagReact>
+                            <S.TagStyled>Styled Components</S.TagStyled>
+                            <S.TagApi>API</S.TagApi>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
@@ -70,10 +88,14 @@ export default function Projetos(){
                             <S.Challenge src={ListaTodo} alt="Lista de tarefas" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2>Lista de Tarefas</S.H2>
-                        <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.P>Site desenvolvido para simular uma lista de tarefas e suas principais funcionalidades.</S.P>
+                        <S.Technology>
+                            <S.TagReact>ReactJS</S.TagReact>
+                            <S.TagStyled>Styled Components</S.TagStyled>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
@@ -81,11 +103,15 @@ export default function Projetos(){
                             <S.Challenge src={Localizador} alt="Localizador de endereços" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2>Localizador de endereços</S.H2>
-                        <S.H2>Página de login</S.H2>
-                        <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.P>Buscador de endereço por meio de CEP.</S.P>
+                        <S.Technology>
+                            <S.TagReact>ReactJS</S.TagReact>
+                            <S.TagStyled>Styled Components</S.TagStyled>
+                            <S.TagApi>API</S.TagApi>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
@@ -93,10 +119,15 @@ export default function Projetos(){
                             <S.Challenge src={Login} alt="Login Game" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2>Login Game</S.H2>
-                        <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.P>Site desenvolvido em html, css e JavaScript, totalmente responsivo.</S.P>
+                        <S.Technology>
+                            <S.TagHtml>HTML</S.TagHtml>
+                            <S.TagCss>CSS</S.TagCss>
+                            <S.TagJs>JavaScript</S.TagJs>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
@@ -104,10 +135,14 @@ export default function Projetos(){
                             <S.Challenge src={Portflow} alt="Projeto Portflow" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2>Projeto Portflow</S.H2>
                         <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.Technology>
+                            <S.TagHtml>HTML</S.TagHtml>
+                            <S.TagCss>CSS</S.TagCss>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
@@ -115,12 +150,15 @@ export default function Projetos(){
                             <S.Challenge src={Recipes} alt="Projeto de receitas" />
                         </a>
                     </S.Figure>
-                    <div>
+                    <S.DivProject>
                         <S.H2>Projeto Recipes</S.H2>
-                        <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
-                    </div>
+                        <S.P>Site desenvolvido em dupla utilizndo ReactJS, totalmente responsivo.</S.P>
+                        <S.Technology>
+                            <S.TagReact>ReactJS</S.TagReact>
+                            <S.TagStyled>Styled Components</S.TagStyled>
+                        </S.Technology>
+                    </S.DivProject>
                 </S.Project>
-               
             </section>
             <S.Div>
                 <S.Ornament src={Adorno} alt="imagem linhas rebuscadas" />

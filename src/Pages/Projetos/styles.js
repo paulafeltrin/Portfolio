@@ -38,7 +38,8 @@ padding: 0 5vw;
 export const Project = styled.div`
 display: flex;
 max-width: 1000px;
-margin: 0 auto;
+padding: 1vh 0;
+margin: auto;
 @media screen and (max-width:900px ) {
     flex-direction: column-reverse;
     padding: 0 2vw;
@@ -54,17 +55,57 @@ export const Figure = styled.figure`
 export const Challenge = styled.img`
     max-width: 100%;
 `
+export const DivProject = styled.div`
+width: 45vw;
+text-align: center;
+display: flex;
+flex-direction: column;
+margin: 3vh 2vw;
+`
 export const H2 = styled.h2`
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    justify-content: center;
+    font-family: 'Merienda', cursive;
     padding: 1vh 0;
 `
 export const P = styled.p`
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    justify-content: center;
+    text-align: justify;
     margin: 5vh 2vw;
+`
+export const Technology = styled.div`
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: space-evenly;
+`
+export const TagHtml = styled.p`
+background-color: #D84924;
+padding: .5vh .5vw;
+border-radius: 8%;
+`
+export const TagCss = styled.p`
+background-color: #2449D8;
+padding: .5vh .5vw;
+border-radius: 8%;
+`
+export const TagJs = styled.p`
+background-color: #E9D204;
+padding: .5vh .5vw;
+border-radius: 8%;
+`
+export const TagReact = styled.p`
+background-color: #5CCFEE;
+padding: .5vh .5vw;
+border-radius: 8%;
+`
+export const TagStyled = styled.p`
+background-color: #E38B6B;
+padding: .5vh .5vw;
+border-radius: 8%;
+`
+export const TagApi = styled.p`
+background-color: #EA5427;
+padding: .5vh .5vw;
+border-radius: 8%;
 `
 export const Div = styled.div`
     display: flex;
@@ -75,3 +116,9 @@ export const Ornament = styled.img`
     padding: 5vh 0;
     width: 40%;
 `
+// html: #D84924
+// css: #2449D8
+// JS: #E9D204
+// React: #5CCFEE
+// styledComponents: #E38B6B
+// API: #EA5427

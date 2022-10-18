@@ -31,10 +31,6 @@ display: none;
     background-color: #cc990060;
     border: none;
     border-radius: 20%;
-
-    :hover{
-        background-color: #cc9900;
-    }
 }
 `
 export const OnuWeb = styled.a`
@@ -96,10 +92,11 @@ font-size: .9rem;
 export const Li = styled.li`
 text-align: center;
 list-style: none;
-height: 4.2vh;
+border: 3px solid transparent;
 padding: 0 2vw;
 
 :hover{
-    outline: 1px solid #cc9900;
+    border-top: .4vh solid #cc9900;
+    outline: 1px solid #cc990060;
 }
 `
