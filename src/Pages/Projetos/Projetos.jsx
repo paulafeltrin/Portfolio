@@ -22,7 +22,7 @@ export default function Projetos(){
             <section>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://paulafeltrin.github.io/desafio-crespos/"target="_blank">
+                        <a href="https://paulafeltrin.github.io/desafio-crespos/"target="_blank"without rel="noreferrer">
                             <S.Challenge src={Crespos} alt="Projeto Crespos" />
                         </a>
                     </S.Figure>
@@ -41,7 +41,7 @@ export default function Projetos(){
                 </S.Project>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://comfy-mousse-ec5f69.netlify.app/"target="_blank">
+                        <a href="https://comfy-mousse-ec5f69.netlify.app/"target="_blank"without rel="noreferrer">
                             <S.Challenge src={DogPage} alt="Projeto Dog Page" />
                         </a>
                     </S.Figure>
@@ -63,7 +63,7 @@ export default function Projetos(){
                 </S.Project>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://neon-maamoul-ac308f.netlify.app/"target="_blank">
+                        <a href="https://neon-maamoul-ac308f.netlify.app/"target="_blank"without rel="noreferrer">
                             <S.Challenge src={Estados} alt="Filter sem botão" />
                         </a>
                     </S.Figure>
@@ -82,7 +82,7 @@ export default function Projetos(){
                 </S.Project>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://radiant-madeleine-d9b821.netlify.app/"target="_blank">
+                        <a href="https://radiant-madeleine-d9b821.netlify.app/"target="_blank"without rel="noreferrer">
                             <S.Challenge src={HP} alt="Projeto Harry Potter" />
                         </a>
                     </S.Figure>
@@ -104,7 +104,7 @@ export default function Projetos(){
                 </S.Project>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://dazzling-bonbon-0354dc.netlify.app/"target="_blank">
+                        <a href="https://dazzling-bonbon-0354dc.netlify.app/"target="_blank"without rel="noreferrer">
                             <S.Challenge src={ListaTodo} alt="Lista de tarefas" />
                         </a>
                     </S.Figure>
@@ -123,7 +123,7 @@ export default function Projetos(){
                 </S.Project>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://celadon-dolphin-7de65c.netlify.app/"target="_blank">
+                        <a href="https://celadon-dolphin-7de65c.netlify.app/"target="_blank"without rel="noreferrer">
                             <S.Challenge src={Localizador} alt="Localizador de endereços" />
                         </a>
                     </S.Figure>
@@ -167,7 +167,7 @@ export default function Projetos(){
                 </S.Project>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://paulafeltrin.github.io/portflow/"target="_blank">
+                        <a href="https://paulafeltrin.github.io/portflow/"target="_blank"without rel="noreferrer">
                             <S.Challenge src={Portflow} alt="Projeto Portflow" />
                         </a>
                     </S.Figure>
@@ -186,7 +186,7 @@ export default function Projetos(){
                 </S.Project>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://majestic-lolly-055776.netlify.app/"target="_blank">
+                        <a href="https://majestic-lolly-055776.netlify.app/"target="_blank"without rel="noreferrer">
                             <S.Challenge src={Recipes} alt="Projeto de receitas" />
                         </a>
                     </S.Figure>
