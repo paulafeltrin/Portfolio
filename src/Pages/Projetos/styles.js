@@ -54,6 +54,10 @@ export const Figure = styled.figure`
 `
 export const Challenge = styled.img`
     max-width: 100%;
+    :hover{
+        transform: scale(1.1);
+        border-radius: 2%;
+    }
 `
 export const DivProject = styled.div`
 width: 45vw;
@@ -70,6 +74,10 @@ export const P = styled.p`
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: justify;
     margin: 5vh 2vw;
+`
+export const A = styled.a`
+    color: black;
+    text-decoration: none;
 `
 export const Technology = styled.div`
 width: 70%;

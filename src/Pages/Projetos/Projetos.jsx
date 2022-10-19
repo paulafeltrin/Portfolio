@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "./styles"
+import * as S from "../Projetos/styles"
 import Crespos from "../../Assests/works/crespos.png"
 import DogPage from "../../Assests/works/dog_page.png"
 import Estados from "../../Assests/works/estados-brasileiros.png"
@@ -30,8 +30,12 @@ export default function Projetos(){
                         <S.H2> Projeto Crespos</S.H2>
                         <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
                         <S.Technology>
-                            <S.TagHtml>HTML</S.TagHtml>
-                            <S.TagCss>CSS</S.TagCss>
+                            <S.TagHtml>
+                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</S.A>    
+                            </S.TagHtml>
+                            <S.TagCss>
+                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</S.A>
+                            </S.TagCss>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
@@ -45,9 +49,15 @@ export default function Projetos(){
                         <S.H2>Projeto Dog Page</S.H2>
                         <S.P>Site desenvolvido para consumo de API.</S.P>
                         <S.Technology>
-                            <S.TagReact>ReactJS</S.TagReact>
-                            <S.TagStyled>Styled Components</S.TagStyled>
-                            <S.TagApi>API</S.TagApi>
+                            <S.TagReact>
+                                <S.A href="https://reactjs.org/docs/getting-started.html">ReactJS</S.A>
+                            </S.TagReact>
+                            <S.TagStyled>
+                                <S.A href="https://styled-components.com/">Styled Components</S.A>
+                            </S.TagStyled>
+                            <S.TagApi>
+                                <S.A href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction">API</S.A>
+                            </S.TagApi>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
@@ -61,8 +71,12 @@ export default function Projetos(){
                         <S.H2>Filtro - estados brasileiros</S.H2>
                         <S.P>Uso do filter sem botão para filtrar os estados bradileiros.</S.P>
                         <S.Technology>
-                            <S.TagReact>ReactJS</S.TagReact>
-                            <S.TagStyled>Styled Components</S.TagStyled>
+                            <S.TagReact>
+                                <S.S.A href="https://reactjs.org/docs/getting-started.html">ReactJS</S.S.A>
+                            </S.TagReact>
+                            <S.TagStyled>
+                                <S.S.A href="https://styled-components.com/">Styled Components</S.S.A>
+                            </S.TagStyled>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
@@ -76,9 +90,15 @@ export default function Projetos(){
                         <S.H2>Projeto Harry Potter</S.H2>
                         <S.P>Site desenvolvido para consumo de API.</S.P>
                         <S.Technology>
-                            <S.TagReact>ReactJS</S.TagReact>
-                            <S.TagStyled>Styled Components</S.TagStyled>
-                            <S.TagApi>API</S.TagApi>
+                            <S.TagReact>
+                                <S.A href="https://reactjs.org/docs/getting-started.html">ReactJS</S.A>
+                            </S.TagReact>
+                            <S.TagStyled>
+                                <S.A href="https://styled-components.com/">Styled Components</S.A>
+                            </S.TagStyled>
+                            <S.TagApi>
+                                <S.A href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction">API</S.A>
+                            </S.TagApi>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
@@ -92,8 +112,12 @@ export default function Projetos(){
                         <S.H2>Lista de Tarefas</S.H2>
                         <S.P>Site desenvolvido para simular uma lista de tarefas e suas principais funcionalidades.</S.P>
                         <S.Technology>
-                            <S.TagReact>ReactJS</S.TagReact>
-                            <S.TagStyled>Styled Components</S.TagStyled>
+                            <S.TagReact>
+                                <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
+                            </S.TagReact>
+                            <S.TagStyled>
+                                <S.A href="https://styled-components.com/"target="_blank">Styled Components</S.A>
+                            </S.TagStyled>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
@@ -107,25 +131,37 @@ export default function Projetos(){
                         <S.H2>Localizador de endereços</S.H2>
                         <S.P>Buscador de endereço por meio de CEP.</S.P>
                         <S.Technology>
-                            <S.TagReact>ReactJS</S.TagReact>
-                            <S.TagStyled>Styled Components</S.TagStyled>
-                            <S.TagApi>API</S.TagApi>
+                            <S.TagReact>
+                                <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
+                            </S.TagReact>
+                            <S.TagStyled>
+                                <S.A href="https://styled-components.com/"target="_blank">Styled Components</S.A>
+                            </S.TagStyled>
+                            <S.TagApi>
+                                <S.A href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"target="_blank">API</S.A>
+                            </S.TagApi>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
                 <S.Project>
                     <S.Figure>
-                        <a href="https://paulafeltrin.github.io/desafio07-js/"target="_blank">
+                        <S.A href="https://paulafeltrin.github.io/desafio07-js/"target="_blank">
                             <S.Challenge src={Login} alt="Login Game" />
-                        </a>
+                        </S.A>
                     </S.Figure>
                     <S.DivProject>
                         <S.H2>Login Game</S.H2>
                         <S.P>Site desenvolvido em html, css e JavaScript, totalmente responsivo.</S.P>
                         <S.Technology>
-                            <S.TagHtml>HTML</S.TagHtml>
-                            <S.TagCss>CSS</S.TagCss>
-                            <S.TagJs>JavaScript</S.TagJs>
+                            <S.TagHtml>
+                                <S.S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"target="_blank">HTML</S.S.A>    
+                            </S.TagHtml>
+                            <S.TagCss>
+                                <S.S.A href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"target="_blank">CSS</S.S.A>
+                            </S.TagCss>
+                            <S.TagJs>
+                                <S.S.A href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"target="_blank">JavaScript</S.S.A>
+                            </S.TagJs>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
@@ -139,8 +175,12 @@ export default function Projetos(){
                         <S.H2>Projeto Portflow</S.H2>
                         <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
                         <S.Technology>
-                            <S.TagHtml>HTML</S.TagHtml>
-                            <S.TagCss>CSS</S.TagCss>
+                            <S.TagHtml>
+                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"target="_blank">HTML</S.A>    
+                            </S.TagHtml>
+                            <S.TagCss>
+                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"target="_blank">CSS</S.A>
+                            </S.TagCss>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
@@ -154,8 +194,12 @@ export default function Projetos(){
                         <S.H2>Projeto Recipes</S.H2>
                         <S.P>Site desenvolvido em dupla utilizndo ReactJS, totalmente responsivo.</S.P>
                         <S.Technology>
-                            <S.TagReact>ReactJS</S.TagReact>
-                            <S.TagStyled>Styled Components</S.TagStyled>
+                            <S.TagReact>
+                                <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
+                            </S.TagReact>
+                            <S.TagStyled>
+                                <S.A href="https://styled-components.com/"target="_blank">Styled Components</S.A>
+                            </S.TagStyled>
                         </S.Technology>
                     </S.DivProject>
                 </S.Project>
