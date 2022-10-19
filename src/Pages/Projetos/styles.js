@@ -65,6 +65,10 @@ text-align: center;
 display: flex;
 flex-direction: column;
 margin: 3vh 2vw;
+
+@media screen and (max-width:900px ) {
+    width: 100vw;
+}
 `
 export const H2 = styled.h2`
     font-family: 'Merienda', cursive;
@@ -75,15 +79,15 @@ export const P = styled.p`
     text-align: justify;
     margin: 5vh 2vw;
 `
-export const A = styled.a`
-    color: black;
-    text-decoration: none;
-`
 export const Technology = styled.div`
 width: 70%;
 margin: auto;
 display: flex;
 justify-content: space-evenly;
+`
+export const A = styled.a`
+    color: black;
+    text-decoration: none;
 `
 export const TagHtml = styled.p`
 background-color: #D84924;
@@ -124,9 +128,3 @@ export const Ornament = styled.img`
     padding: 5vh 0;
     width: 40%;
 `
-// html: #D84924
-// css: #2449D8
-// JS: #E9D204
-// React: #5CCFEE
-// styledComponents: #E38B6B
-// API: #EA5427

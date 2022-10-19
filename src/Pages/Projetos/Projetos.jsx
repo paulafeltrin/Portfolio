@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "../Projetos/styles"
+import * as S from "./styles"
 import Crespos from "../../Assests/works/crespos.png"
 import DogPage from "../../Assests/works/dog_page.png"
 import Estados from "../../Assests/works/estados-brasileiros.png"
@@ -31,10 +31,10 @@ export default function Projetos(){
                         <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
                         <S.Technology>
                             <S.TagHtml>
-                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</S.A>    
+                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"target="_blank">HTML</S.A>    
                             </S.TagHtml>
                             <S.TagCss>
-                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</S.A>
+                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"target="_blank">CSS</S.A>
                             </S.TagCss>
                         </S.Technology>
                     </S.DivProject>
@@ -50,13 +50,13 @@ export default function Projetos(){
                         <S.P>Site desenvolvido para consumo de API.</S.P>
                         <S.Technology>
                             <S.TagReact>
-                                <S.A href="https://reactjs.org/docs/getting-started.html">ReactJS</S.A>
+                                <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
                             </S.TagReact>
                             <S.TagStyled>
-                                <S.A href="https://styled-components.com/">Styled Components</S.A>
+                                <S.A href="https://styled-components.com/"target="_blank">Styled Components</S.A>
                             </S.TagStyled>
                             <S.TagApi>
-                                <S.A href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction">API</S.A>
+                                <S.A href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"target="_blank">API</S.A>
                             </S.TagApi>
                         </S.Technology>
                     </S.DivProject>
@@ -72,10 +72,10 @@ export default function Projetos(){
                         <S.P>Uso do filter sem botão para filtrar os estados bradileiros.</S.P>
                         <S.Technology>
                             <S.TagReact>
-                                <S.S.A href="https://reactjs.org/docs/getting-started.html">ReactJS</S.S.A>
+                                <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
                             </S.TagReact>
                             <S.TagStyled>
-                                <S.S.A href="https://styled-components.com/">Styled Components</S.S.A>
+                                <S.A href="https://styled-components.com/"target="_blank">Styled Components</S.A>
                             </S.TagStyled>
                         </S.Technology>
                     </S.DivProject>
@@ -154,13 +154,13 @@ export default function Projetos(){
                         <S.P>Site desenvolvido em html, css e JavaScript, totalmente responsivo.</S.P>
                         <S.Technology>
                             <S.TagHtml>
-                                <S.S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"target="_blank">HTML</S.S.A>    
+                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"target="_blank">HTML</S.A>    
                             </S.TagHtml>
                             <S.TagCss>
-                                <S.S.A href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"target="_blank">CSS</S.S.A>
+                                <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"target="_blank">CSS</S.A>
                             </S.TagCss>
                             <S.TagJs>
-                                <S.S.A href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"target="_blank">JavaScript</S.S.A>
+                                <S.A href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"target="_blank">JavaScript</S.A>
                             </S.TagJs>
                         </S.Technology>
                     </S.DivProject>
