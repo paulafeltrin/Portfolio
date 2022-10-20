@@ -38,11 +38,12 @@ padding: 0 5vw;
 export const Project = styled.div`
 display: flex;
 max-width: 1000px;
-padding: 1vh 0;
+padding: 1vh 3vw;
 margin: auto;
 @media screen and (max-width:900px ) {
     flex-direction: column-reverse;
-    padding: 0 2vw;
+    align-items: center;
+    justify-content: center;
 }
 :hover{
     outline: 2px solid #cc9900;
@@ -68,16 +69,39 @@ margin: 3vh 2vw;
 
 @media screen and (max-width:900px ) {
     width: 100vw;
+    align-items: center;
+    padding: 1vh 2vw;
 }
 `
 export const H2 = styled.h2`
-    font-family: 'Merienda', cursive;
-    padding: 1vh 0;
+font-family: 'Merienda', cursive;
+padding: 1vh 0;
+@media screen and (max-width:900px ) {
+    padding: 0;
+}
 `
 export const P = styled.p`
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: justify;
-    margin: 5vh 2vw;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: justify;
+margin: 1.5vh 2vw;
+@media screen and (max-width:900px ) {
+    margin: 2vh 0;
+}
+`
+export const Li = styled.li`
+list-style: none;
+margin: 0 auto;
+width: 10vw;
+padding: .5vh .5vw;
+:hover{
+    outline: 1px solid #cc9900;
+}
+@media screen and (max-width:900px ) {
+    width: 20vw;
+}
+@media screen and (max-width:440px ) {
+    width: 30vw;
+}
 `
 export const Technology = styled.div`
 width: 70%;

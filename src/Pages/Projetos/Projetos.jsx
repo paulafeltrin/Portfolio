@@ -29,6 +29,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2> Projeto Crespos</S.H2>
                         <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/desafio-crespos"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagHtml>
                                 <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"target="_blank">HTML</S.A>    
@@ -48,6 +49,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2>Projeto Dog Page</S.H2>
                         <S.P>Site desenvolvido para consumo de API.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/dogpage"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagReact>
                                 <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
@@ -70,6 +72,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2>Filtro - estados brasileiros</S.H2>
                         <S.P>Uso do filter sem botão para filtrar os estados bradileiros.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/estadosBr-filter"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagReact>
                                 <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
@@ -89,6 +92,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2>Projeto Harry Potter</S.H2>
                         <S.P>Site desenvolvido para consumo de API.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/HarryPotter"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagReact>
                                 <S.A href="https://reactjs.org/docs/getting-started.html">ReactJS</S.A>
@@ -111,6 +115,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2>Lista de Tarefas</S.H2>
                         <S.P>Site desenvolvido para simular uma lista de tarefas e suas principais funcionalidades.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/To-do_React"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagReact>
                                 <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
@@ -130,6 +135,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2>Localizador de endereços</S.H2>
                         <S.P>Buscador de endereço por meio de CEP.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/localizador-cep"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagReact>
                                 <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
@@ -152,6 +158,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2>Login Game</S.H2>
                         <S.P>Site desenvolvido em html, css e JavaScript, totalmente responsivo.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/desafio07-js"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagHtml>
                                 <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"target="_blank">HTML</S.A>    
@@ -174,6 +181,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2>Projeto Portflow</S.H2>
                         <S.P>Site desenvolvido em html e css, totalmente responsivo.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/portflow"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagHtml>
                                 <S.A href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"target="_blank">HTML</S.A>    
@@ -193,6 +201,7 @@ export default function Projetos(){
                     <S.DivProject>
                         <S.H2>Projeto Recipes</S.H2>
                         <S.P>Site desenvolvido em dupla utilizndo ReactJS, totalmente responsivo.</S.P>
+                        <S.A href="https://github.com/paulafeltrin/Pair_Programing"target="_blank"without rel="noreferrer"><S.Li>Link GitHub</S.Li></S.A>
                         <S.Technology>
                             <S.TagReact>
                                 <S.A href="https://reactjs.org/docs/getting-started.html"target="_blank">ReactJS</S.A>
